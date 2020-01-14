@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Szachownica float</title>
+    <style>
+        .board {
+            position: relative;
+            width: 30vw;
+            height: 30vw;
+            border: 10px solid black;
+            top: calc(50% - 30vw/2);
+            left: calc(50% - 30vw/2);
+        }
+
+        .first {
+            width: 50%;
+            height: 50%;
+            background-color: brown;
+            float: left;
+        }
+
+        .second {
+            width: 50%;
+            height: 50%;
+            background-color: white;
+            float: left;
+        }
+
+        .third {
+            width: 50%;
+            height: 50%;
+            background-color: white;
+            float: left;
+        }
+
+        .fourth {
+            width: 50%;
+            height: 50%;
+            background-color: brown;
+            float: left;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="board">
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
+        <span class="fourth"></span>
+    </div>
+    <h1>Szachownica float</h1>
+
+</body>
+
+</html>

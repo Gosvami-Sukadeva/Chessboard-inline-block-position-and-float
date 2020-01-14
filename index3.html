@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Szachownica position</title>
+    <style>
+        .board {
+            box-sizing: border-box;
+            position: absolute;
+            width: 30vw;
+            height: 30vw;
+            border: 10px solid black;
+            top: calc(50% - 30vw/2);
+            left: calc(50% - 30vw/2);
+        }
+
+        .first {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            background-color: brown;
+            top: 0;
+            left: 0;
+
+        }
+
+        .second {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            background-color: white;
+            top: 0;
+            right: 0;
+        }
+
+        .third {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            background-color: white;
+            bottom: 0;
+            left: 0;
+
+        }
+
+        .fourth {
+            position: absolute;
+            width: 50%;
+            height: 50%;
+            background-color: brown;
+            bottom: 0;
+            right: 0;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="board">
+        <span class="first"></span>
+        <span class="second"></span>
+        <span class="third"></span>
+        <span class="fourth"></span>
+    </div>
+    <h1>Szachownica "position"</h1>
+</body>
+
+</html>
